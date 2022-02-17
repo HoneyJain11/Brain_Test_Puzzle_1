@@ -15,11 +15,11 @@ MonoBehaviour:
   levelNo: 6
   levelTitle: Climb The Stairs
   levelSpriteElement:
-  - {fileID: 21300000, guid: cdacc42e11d8243e49087d04f15a97b5, type: 3}
-  - {fileID: 21300000, guid: 2dbb1342cb32141f1a944200a313c432, type: 3}
-  - {fileID: 21300000, guid: 8cd9eb623f3104f91aec908d0fc04687, type: 3}
-  - {fileID: 21300000, guid: 8e9270b192ce4431fb51110c36c1dbf4, type: 3}
-  - {fileID: 21300000, guid: 48b18eb233312441aab0665aa8ef04c6, type: 3}
-  - {fileID: 21300000, guid: ba06de95abc304cfb9c851be565fc251, type: 3}
-  - {fileID: 21300000, guid: b0b69504d38114dd7944892a65472b65, type: 3}
-  - {fileID: 21300000, guid: 7ad8b56b70dbd40359ddc1c96f9c1056, type: 3}
+  - {fileID: 21300000, guid: fcd0a955470d74a26aa6e14f509dc568, type: 3}
+  - {fileID: 21300000, guid: 79da48dfd0019432b9e23dfb56142a1d, type: 3}
+  - {fileID: 21300000, guid: f338a724a69cc4da79687ae89cc4fd05, type: 3}
+  - {fileID: 21300000, guid: 267706ff091f74541baa622f1ae727fe, type: 3}
+  - {fileID: 21300000, guid: 506eab246c1a040b19d9a4b0d4621b12, type: 3}
+  - {fileID: 21300000, guid: 143bc029ecce1479897f2506e4b5dc86, type: 3}
+  - {fileID: 21300000, guid: 60f4af7503c514804a94ac43e7eaab51, type: 3}
+  - {fileID: 21300000, guid: 5ecc19b9ec8cd4cd5bc48531ae18710b, type: 3}

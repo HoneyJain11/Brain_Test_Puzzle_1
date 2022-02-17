@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a608cd9c9356e4efdb1bd64e95aae556, type: 3}
+  m_Name: Level7S0
+  m_EditorClassIdentifier: 
+  levelNo: 7
+  levelTitle: Catch Fishes
+  levelSpriteElement:
+  - {fileID: 21300000, guid: 16a863eedd7554f7ca99f9a78735387a, type: 3}
+  - {fileID: 21300000, guid: 2c9c18e0545224110b78af936e5a488d, type: 3}
+  - {fileID: 21300000, guid: 650614f2a5be449d48387d81c563d2b9, type: 3}
+  - {fileID: 21300000, guid: 17f39fd7f1817437691bb3eb663e8aeb, type: 3}
+  - {fileID: 21300000, guid: 3cac57e5f162b471face9a8ef825e3f3, type: 3}
+  - {fileID: 21300000, guid: ce6797ade487e469289c0265b2c43b7d, type: 3}
+  - {fileID: 21300000, guid: e536020f33d2044d8b677e21d89bb954, type: 3}
