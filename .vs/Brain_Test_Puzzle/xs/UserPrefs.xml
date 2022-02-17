@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{1AD35D82-B194-909E-BA86-12FB48037B01}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelScriptableObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelView.cs">
     <Files>
-      <File FileName="Assets/Scripts/Level/LevelModel.cs" Line="11" Column="12" />
-      <File FileName="Assets/Scripts/Level/LevelController.cs" Line="72" Column="28" />
-      <File FileName="Assets/Scripts/Level/LevelView.cs" />
-      <File FileName="Assets/Scripts/LevelScriptableObjectList.cs" />
+      <File FileName="Assets/Scripts/LevelScriptableObjectList.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LevelScriptableObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="65" Column="31" />
+      <File FileName="Assets/Scripts/LevelView.cs" Line="52" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Brain_Test_Puzzle" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Level" expanded="True" />
+                <Node name="LevelView.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98ee32ab-2922-443e-909b-0a203f2c756d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14bb2cc0-d220-4660-bacb-b2d40a1cca20" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

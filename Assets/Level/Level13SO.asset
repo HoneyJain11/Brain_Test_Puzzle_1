@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a608cd9c9356e4efdb1bd64e95aae556, type: 3}
+  m_Name: Level13SO
+  m_EditorClassIdentifier: 
+  levelNo: 13
+  levelTitle: Row The Boat
+  levelSpriteElement:
+  - {fileID: 21300000, guid: d7fd18027f8154e5bbb5e83cc837a45d, type: 3}
+  - {fileID: 21300000, guid: e666fad4546b14e16985a95a26aba25e, type: 3}
+  - {fileID: 21300000, guid: 4c973675d937a4fa0a4026445e9ee2ba, type: 3}
+  - {fileID: 21300000, guid: a7bf6e4fd6c474261a40d15ac96b2273, type: 3}
+  - {fileID: 21300000, guid: 9fba7ef0102b042f7ac38e583b59175b, type: 3}
+  - {fileID: 21300000, guid: a4366a6e74a944b8bb141f9efc53ed74, type: 3}
+  - {fileID: 21300000, guid: d8fd711c2e29c4e7fabcb499a4e109f3, type: 3}

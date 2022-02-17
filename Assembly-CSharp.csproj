@@ -56,11 +56,11 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Level/LevelController.cs" />
-    <Compile Include="Assets/Scripts/Level/LevelModel.cs" />
-    <Compile Include="Assets/Scripts/Level/LevelView.cs" />
+    <Compile Include="Assets/Scripts/LevelController.cs" />
+    <Compile Include="Assets/Scripts/LevelModel.cs" />
     <Compile Include="Assets/Scripts/LevelScriptableObject.cs" />
     <Compile Include="Assets/Scripts/LevelScriptableObjectList.cs" />
+    <Compile Include="Assets/Scripts/LevelView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
