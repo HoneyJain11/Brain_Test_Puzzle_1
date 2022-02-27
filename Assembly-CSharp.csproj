@@ -56,11 +56,16 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/LevelController.cs" />
-    <Compile Include="Assets/Scripts/LevelModel.cs" />
-    <Compile Include="Assets/Scripts/LevelScriptableObject.cs" />
-    <Compile Include="Assets/Scripts/LevelScriptableObjectList.cs" />
-    <Compile Include="Assets/Scripts/LevelView.cs" />
+    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelController.cs" />
+    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelModel.cs" />
+    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelScriptableObjectList.cs" />
+    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelView.cs" />
+    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeController.cs" />
+    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeModel.cs" />
+    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjectList.cs" />
+    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjects.cs" />
+    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -697,6 +702,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

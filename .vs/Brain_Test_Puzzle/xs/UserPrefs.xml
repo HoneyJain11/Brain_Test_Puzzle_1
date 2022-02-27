@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{1AD35D82-B194-909E-BA86-12FB48037B01}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level_1Type_Scripts/LevelView.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelScriptableObjectList.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelScriptableObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LevelController.cs" Line="65" Column="31" />
-      <File FileName="Assets/Scripts/LevelView.cs" Line="52" Column="1" />
+      <File FileName="Assets/Scripts/Level_2Type_Scripts/Level2TypeView.cs" Line="45" Column="1" />
+      <File FileName="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjects.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level_2Type_Scripts/Level2TypeModel.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/Level_2Type_Scripts/Level2TypeController.cs" Line="83" Column="49" />
+      <File FileName="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjectList.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level_1Type_Scripts/LevelModel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level_1Type_Scripts/LevelController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level_1Type_Scripts/LevelView.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +16,10 @@
           <Node name="Brain_Test_Puzzle" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="LevelView.cs" selected="True" />
+                <Node name="Level_1Type_Scripts" expanded="True">
+                  <Node name="LevelView.cs" selected="True" />
+                </Node>
+                <Node name="Level_2Type_Scripts" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14bb2cc0-d220-4660-bacb-b2d40a1cca20" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d67be3d5-4a39-4fbb-8381-df68e3c9d7bf" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
