@@ -8,7 +8,6 @@ public class Level2TypeController
     public float bgMinX, bgMaxX, bgMinY, bgMaxY;
     public Level2TypeView Level2TypeView;
     public Level2TypeModel Level2TypeModel;
-    bool isFirstTouch = false;
     Vector3 touchStart = new Vector3(0f, 0f, -10f);
     public Level2TypeController (Level2TypeModel level2TypeModel , Level2TypeView level2TypeView)
     {
