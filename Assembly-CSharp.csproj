@@ -56,24 +56,46 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelController.cs" />
-    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelModel.cs" />
-    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelScriptableObject.cs" />
-    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelScriptableObjectList.cs" />
-    <Compile Include="Assets/Scripts/Level_1Type_Scripts/LevelView.cs" />
-    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeController.cs" />
-    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeModel.cs" />
-    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjectList.cs" />
-    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeScriptableObjects.cs" />
-    <Compile Include="Assets/Scripts/Level_2Type_Scripts/Level2TypeView.cs" />
+    <Compile Include="Assets/Scripts/EventHandler.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/DragController.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level1Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level2Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level3Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level5Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level6Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level7Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Level8Controller.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/Sequence.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/UIController.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/UIDragController.cs" />
+    <Compile Include="Assets/Scripts/LevelControllerScripts/level4Controller.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_1Type_Scripts/LevelController.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_1Type_Scripts/LevelModel.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_1Type_Scripts/LevelScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_1Type_Scripts/LevelScriptableObjectList.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_1Type_Scripts/LevelView.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_2Type_Scripts/Level2TypeController.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_2Type_Scripts/Level2TypeModel.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_2Type_Scripts/Level2TypeScriptableObjectList.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_2Type_Scripts/Level2TypeScriptableObjects.cs" />
+    <Compile Include="Assets/Scripts/MVC/Level_2Type_Scripts/Level2TypeView.cs" />
+    <Compile Include="Assets/Scripts/Pooling/ObjectPooler.cs" />
+    <Compile Include="Assets/Scripts/ScriptableObject/LevelSO.cs" />
+    <Compile Include="Assets/Scripts/Singleton/GenericSingleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds_version-7.0.0_manifest.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Common.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.dll" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Core.dll" />
+    <None Include="Assets/GoogleMobileAds/link.xml" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -83,7 +105,9 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Android.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
@@ -267,6 +291,18 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.28f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -658,6 +694,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
@@ -703,11 +742,16 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.DeviceSimulator.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D79C48EC-FD42-F245-AFE9-4D213B7D098E}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{8609F637-0D46-8DC3-D20C-633556EE4EEE}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
